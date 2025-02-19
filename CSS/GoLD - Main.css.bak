@@ -1818,13 +1818,13 @@ input[type="password"]:focus {
 }
 
 ::-webkit-scrollbar-track {
-   background: var(--mainColorDarker);
+   background: var(--mainColor);
    -webkit-transition: 3s;
    transition: 3s;
 }
 
 ::-webkit-scrollbar-thumb {
-   background: var(--secondaryColorLighter);
+   background: var(--OpaqueColorDarker);
    border: 1px solid var(--mainColor);
    border-radius: 5px;
    -webkit-transition: 5s;
